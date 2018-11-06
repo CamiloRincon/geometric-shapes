@@ -1,5 +1,5 @@
 <template>
-  <h1>Hello {{ name }} </h1>
+  <h2>Hello {{ name }} </h2>
 </template>
 
 <script>
@@ -14,6 +14,6 @@ export default {
 </script>
 <style scope>
 h1 {
-    color: red;
+  text-transform: uppercase;
 }
 </style>
