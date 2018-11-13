@@ -9,7 +9,7 @@ and Unit Testing using [Jest](https://jestjs.io/),  covering all the basic aspec
 
 - Download the repo
 - In your CMD run **npm install**
-- To start  run *npm run dev* will open a tab in **localhost:8080**
+- To start  run **npm run dev** will open a tab in **localhost:8080**
 
 ## Run linter
 - In your CMD run npm lint
