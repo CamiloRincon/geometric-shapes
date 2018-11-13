@@ -11,11 +11,11 @@ and Unit Testing using [Jest](https://jestjs.io/),  covering all the basic aspec
 - In your CMD run **npm install**
 - To start  run **npm run dev** will open a tab in **localhost:8080**
 
-## Run linter
+## Run Linter
 - In your CMD run **npm run lint**
 - If you want to auto fix linter problems run **npm run lint:fix**
 
-## Run tests
+## Run Tests
 - In your CMD run npm run test
-- If you want to wtah the tests after every change run **npm run test -- --watch**
+- If you want to watch the tests after every change run **npm run test -- --watch**
 - Coverage Reports are generated automatically  under the folder /coverage **npm run test -- --coverage**
