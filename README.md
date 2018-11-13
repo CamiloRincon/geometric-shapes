@@ -12,7 +12,7 @@ and Unit Testing using [Jest](https://jestjs.io/),  covering all the basic aspec
 - To start  run **npm run dev** will open a tab in **localhost:8080**
 
 ## Run linter
-- In your CMD run npm lint
+- In your CMD run **npm run lint**
 - If you want to auto fix linter problems run **npm run lint:fix**
 
 ## Run tests
