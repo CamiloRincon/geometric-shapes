@@ -1,19 +1,23 @@
 <template>
-  <h2>Hello {{ name }} </h2>
+  <div>
+    <span class="count">{{ count }}</span>
+    <button @click="increment">Increment</button>
+  </div>
 </template>
 
 <script>
 export default {
-  props: {
-    name: {
-      type: String,
-      required: true
+
+  data () {
+    return {
+      count: 0
+    }
+  },
+
+  methods: {
+    increment () {
+      this.count++
     }
   }
 }
 </script>
-<style scope>
-h1 {
-  text-transform: uppercase;
-}
-</style>

@@ -1,9 +1,16 @@
-import { mount, createLocalVue } from '@vue/test-utils'
-import App from '../components/HelloComponent.vue'
+import { mount } from '@vue/test-utils'
+import HelloComponent from '../components/HelloComponent.vue'
 
-test('App has a heading level 1', () => {
-  const vue = createLocalVue()
+describe('Counter', () => {
+  // Now mount the component and you have the wrapper
+  const wrapper = mount(HelloComponent)
 
-  const app = mount(App, { vue })
-  expect(app.contains('h1'))
+  it('renders the correct markup', () => {
+    expect(wrapper.html()).toContain('<span class="count">0</span>')
+  })
+
+  // it's also easy to check for the existence of elements
+  it('has a button', () => {
+    expect(wrapper.contains('button')).toBe(true)
+  })
 })
