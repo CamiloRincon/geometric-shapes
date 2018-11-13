@@ -1,7 +1,7 @@
 # geometric-shapes
 
 The puprpose of this Project is generate a Boilerplate to start a project with [Vue](https://www.vuejs.com/)
-and Unit Testing using [Jest](https://jestjs.io/),  covering all the basic aspects to take into account when we want to start a project from scratch. This is a WIP for now this project is calculating basic geometric operations.
+and Unit Testing using [Jest](https://jestjs.io/),  covering all the basic aspects to take into account when we want to start a project from scratch. This is a WIP, for now this project is calculating basic geometric operations.
 
 # Installation 
 
